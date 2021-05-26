@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Noticias</title>
+	</head>
+	<!-- <section>...</section> : Es un contenedor generico que agrupa contenido que esta relacionado.
+Cuando creamos bloques cuyo contenido es parte de un bloque total usaremos section.
+
+<article>...</article> : Es un contenedor que representa contenido independiente, es decir,
+podemos leer ese fragmento en cualquier otro sitio y tendria sentido por si mismo.
+
+<aside>...<aside> : se utiliza para representar contenido relacionado pero  que no forma parte del contenido principal.
+
+Anidamiento:
+Un section puede contener articles, por ejemplo, si tenemos varios ariculos que hablan sobre etiquetas HTML, deben ir
+dentro de un section, ya que es contenido relacionado entre si, y los article serian contenido independiente porque
+podriamos leer uno sin haber leido el resto, y seguiria teniendo sentido.
+
+El article es definido como un componente de la pagina de contenido independiente, esto implica que esta etiqueta pueda
+tener un header y un footer propios. -->
+
+	<!-- Ejemplo de section encerrando articles -->
+	<body>
+		<header>
+			<h1>Noticias Nacionales</h1>
+		</header>
+		<main>
+			<!--  
+			<section>
+				<h2>Section como contenedor</h2>
+				<section>
+					<h3>Noticias del Dia</h3>
+					<article>
+						<header>
+							<h4>Noticia 1</h4>
+						</header>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+							velit labore id vitae minus nulla ex distinctio officiis itaque
+							cupiditate dicta, sed, magnam eveniet veritatis tenetur. Animi
+							veniam eius nobis!
+						</p>
+						<footer>Hechos ocurridos en mi CASA MANITO</footer>
+					</article>
+					<article>
+						<h4>Noticia 2</h4>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+							aliquid aperiam impedit et, maiores aspernatur, suscipit, est
+							inventore optio aut deleniti consectetur? Consectetur laudantium
+							asperiores incidunt debitis tenetur est facilis.
+						</p>
+					</article>
+					<article>
+						<h4>Noticia 3</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+							nesciunt sit autem nihil cupiditate? Officia veritatis, laboriosam
+							ipsa at earum placeat doloremque optio sunt dignissimos repellat,
+							ad rem eum iusto?
+						</p>
+					</article>
+				</section>
+			</section>
+            -->
+
+			<article>
+				<h2>Navegadores mas utilizados en 2021</h2>
+				<section>
+					<header>
+						<h3>Chrome</h3>
+					</header>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Consequuntur enim incidunt non ad eos veniam praesentium, obcaecati
+						vero qui itaque nesciunt provident alias minus a, dolores blanditiis
+						tenetur quis aspernatur?
+					</p>
+					<footer>Creado por Chrome</footer>
+				</section>
+				<section>
+					<header>
+						<h3>Firefox</h3>
+					</header>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quia
+						facere harum placeat impedit non quod sit officiis quo similique
+						tempore minus veritatis accusantium necessitatibus sed inventore
+						maiores autem recusandae.
+					</p>
+					<footer>Creado por Firefox</footer>
+				</section>
+			</article>
+		</main>
+		<footer>25-6-2021</footer>
+	</body>
+</html>
