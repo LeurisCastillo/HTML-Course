@@ -1,2 +1,2 @@
 # HTML-Course
-Este repositorio solo estoy utilizando para aprender HTML
+Este repositorio solo lo estoy utilizando para aprender HTML y practicar GIT
