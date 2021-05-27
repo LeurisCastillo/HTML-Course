@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<!--
+    Enlace: 
+        Conocidos tambien por links popularmente. Su objetivo es conectar una pagina web con otra pagina web, con un recuerso tanto interno como externo, o con otro sitio web.
+
+        Tienen el atributo obligatorio href, done le especificamos la ruta del recurso o sitio que queremos obtener.
+
+        Tambien tiene el atributo target, que configura como queremos visualizar el recurso o sitio que solicitamos.
+
+    Rutas absolutas:
+        Tienen un protocolo, http o https y son unicas en la red, se suelen utilizar para rutas externas.
+
+    Rutas relativas: 
+        Pueden ser al punto donde nos encontramos o relativas a la raiz del proyecto
+
+        No usan protocolos
+
+        Si el recurso se encuentra al mismo nivel (en la misma carpeta) pondremos unicamente el nombre del archivo.
+
+        Si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada nivel (carpeta) de la que queramos salir.
+
+    Atributos de los enlaces
+        target: define donde se abrira el recuso solicitado. Por norma general siempre que useis rutas absolutas pondreis como valor "_blank" El valor por defecto es "_self" (es como no poner nada)
+
+        download: Atributo booleano, sirve para descargar el recurso solicitado.
+        IMPORTANTE, el recurso debe estar en tu mismo servidor. No se pueden archivos de otros servidor.
+
+        Nota: los atributos booleanos tienen el comportamiento de que si existe es "true" y si no es "false". (No tiene que escribir ni true ni false, solo el atributo "download"). 
+-->
+
+<body>
+    <h1>Home</h1>
+    <a href="/web_demo/paginas/contacto.html" download>Ir a contacto</a> <br>
+    <a href="https://www.google.com/" target="_blank">Ir a google</a> <br>
+    <a href="/web_demo/assets/images/pato.jpg" download>Descargar foto de un pato</a>
+</body>
+
+</html>
