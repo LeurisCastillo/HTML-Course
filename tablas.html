@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<!-- 
+        Las tablas en HTML sirven para mostrar contenido tabulado.
+
+        La estructura basica de una tabla se compone de
+        table -> Etiqueta que encirra una tabla
+        tr -> table row, etiqueta que contruye una fila
+        td -> tabla data, etiqueta que construye una celda
+
+        truco: el numero de celdas dentro de un (tr) establecera
+        el numero de columnas de la tabla.
+
+        Los titulos de las tablas se establecen con la etiqueta (caption),
+        es una etiqueta opcional, y segun la especificacion esa etiqueta se coloca
+        justo despues de la etiqueta table.
+
+        Las cabeceras de las tablas se establecen con la etiqueta (thead).
+        Dentro tendremos una etiqueta (tr) normal, pero en el caso de las celdas,
+        las estableceremos con la etiqueta (th) en lugar de (td).
+     -->
+
+<body>
+    <h1>Tablas</h1>
+
+    <table>
+        <caption>HORARIA DE TU SUFRIMIENTO</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>LUNES</th>
+                <th>MARTE</th>
+                <th>MIERCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:30 - 9:30</td>
+                <td>Sociales</td>
+                <td>Naturales</td>
+                <td>Fisica</td>
+                <td>Arte</td>
+                <td>Matematicas</td>
+            </tr>
+            <tr>
+                <td>9:30 - 10:30</td>
+                <td>Lenguas</td>
+                <td>Religion</td>
+                <td>Matematicas</td>
+                <td>Naturales</td>
+                <td>Fisica</td>
+            </tr>
+            <tr>
+                <td>10:30 - 11:30</td>
+                <td>Matematicas</td>
+                <td>Fisica</td>
+                <td>Agropecuaria</td>
+                <td>Lenguas</td>
+                <td>Religion</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Recreo</td>
+            </tr>
+            <tr>
+                <td>12:30 - 1:15</td>
+                <td>Naturales</td>
+                <td>Sociales</td>
+                <td>Sociales</td>
+                <td>Matematicas</td>
+                <td>Lenguas</td>
+            </tr>
+            <tr>
+                <td>1:15 - 1:50</td>
+                <td>Matematicas</td>
+                <td>Fisica</td>
+                <td>Agropecuaria</td>
+                <td>Lenguas</td>
+                <td>Religion</td>
+            </tr>
+            <tr>
+                <td>1:50 - 2:30</td>
+                <td>Matematicas</td>
+                <td>Fisica</td>
+                <td>Agropecuaria</td>
+                <td>Lenguas</td>
+                <td>Religion</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total mateterias</td>
+                <td>12,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
